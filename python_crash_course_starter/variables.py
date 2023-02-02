@@ -13,3 +13,9 @@ VARIABLE RULES:
   - Must start with a letter or an underscore
   - Can have numbers but can not start with one
 """
+
+x_tk, y_tk, name_tk, bool_tk = (1, 4.5, "Name", False)
+
+sum_tk = x_tk + y_tk
+
+print(type(float(x_tk)), float(x_tk))
